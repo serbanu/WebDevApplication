@@ -18,7 +18,7 @@ func :: Int -> [String] -> [Int]
 func i [] = []
 func i (x:xs) = case faSplit x !! 0 of
 		"add" 	    -> (i + (hashTable (faSplit x !! 1) f)):(func i xs)
-		"subtract" -> (i - (hashTable (faSplit x !! 1) f)):(func i xs)
+		"subtract"  -> (i - (hashTable (faSplit x !! 1) f)):(func i xs)
 		"multiply"  -> (i * (hashTable (faSplit x !! 2) f)):(func i xs)
 		"divide"    -> (i `div` (hashTable (faSplit x !! 2) f)):(func i xs)
 		_           -> []
