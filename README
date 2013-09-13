@@ -1,5 +1,6 @@
 Mardaloescu Serban
 
    Hello, am ales sa rezolv problema in limbajul Haskell.
-   O singura mentiune am, si anume: lista de operatii trebuie sa contina string-uri si nu `plain text`.
+   O singura mentiune am, si anume: lista de operatii trebuie sa contina string-uri si nu `plain text`,
+pentru a nu construi de mana 44 de functii ce intorc un string cu numele lor.
    Multumesc ! 
