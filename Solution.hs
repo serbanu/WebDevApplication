@@ -22,3 +22,12 @@ func i (x:xs) = case faSplit x !! 0 of
 		"multiply"  -> (i * (hashTable (faSplit x !! 2) f)):(func i xs)
 		"divide"    -> (i `div` (hashTable (faSplit x !! 2) f)):(func i xs)
 		_           -> []
+
+add_two :: String
+add_two = "add_two"
+
+subtract_three :: String
+subtract_three = "subtract_three"
+
+multiply_by_five :: String
+multiply_by_five = "multiply_by_five"
